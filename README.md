@@ -14,10 +14,10 @@ Want to add your plugin here? Contact us in [Telegram](https://t.me/BigCityLegac
 
 | Plugin name         | Author     | Version | Supported Platforms | About                                                   | Download link        |
 | ------------------- | ---------- | ------- | ------------------- | ------------------------------------------------------- | -------------------- |
-| EnhancedCarTuning   | LegacyTeam | 1.1.0   | Windows, Linux      | [Link](https://github.com/LxgacyTeam/EnhancedCarTuning) | [Download](https://) |
-| LegacyMapExpansion  | zzest()    | 1.0.0   | Windows, Linux      | [Link](https://github.com/zzest-dev/LegacyMapExpansion) | [Download](https://) |
-| RadioReplacer       | Mr_Dodep   | 3.0.0   | All                 | [Link](./plugins/RadioReplacer/README.md)               | [Download](https://) |
-| CinematicCameraPlus | Mr_Dodep   | 5.0.0   | All                 | [Link](./plugins/CinematicCameraPlus/README.md)         | [Download](https://) |
+| EnhancedCarTuning   | LegacyTeam | 1.1.0   | Windows, Linux      | [Link](https://github.com/LxgacyTeam/EnhancedCarTuning) | [Windows](https://github.com/LxgacyTeam/EnhancedCarTuning/releases/download/1.1.0/EnhancedCarTuning-1.1.0-windows.zip), [Linux](https://github.com/LxgacyTeam/EnhancedCarTuning/releases/download/1.1.0/EnhancedCarTuning-1.1.0-linux.zip) |
+| LegacyMapExpansion  | zzest()    | 1.0.0   | Windows, Linux      | [Link](https://github.com/zzest-dev/LegacyMapExpansion) | [Windows](https://github.com/zzest-dev/LegacyMapExpansion/releases/download/v1.0.0/LegacyMapExpansion-1.0.0.zip), [Linux](https://github.com/zzest-dev/LegacyMapExpansion/releases/download/v1.0.0/LegacyMapExpansion-1.0.0-Linux.zip) |
+| RadioReplacer       | Mr_Dodep   | 3.0.0   | All                 | [Link](./plugins/RadioReplacer/README.md)               | [Universal](https://github.com/LxgacyTeam/community-plugins/blob/main/plugins/RadioReplacer/releases/RadioReplacer-3.0.0.zip) |
+| CinematicCameraPlus | Mr_Dodep   | 5.0.0   | All                 | [Link](./plugins/CinematicCameraPlus/README.md)         | [Universal](https://github.com/LxgacyTeam/community-plugins/blob/main/plugins/CinematicCameraPlus/releases/CinematicCameraPlus_5.0.0.zip) |
 
 ---
 
