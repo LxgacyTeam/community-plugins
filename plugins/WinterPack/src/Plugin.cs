@@ -9,7 +9,7 @@ using Object=UnityEngine.Object;
 
 namespace WinterPack
 {
-    [BepInPlugin(Guid, "WinterPack", "1.0.0")]
+    [BepInPlugin(Guid, "WinterPack", "1.0.1")]
     [BepInDependency("com.bigcitylegacy.baseplugin", "1.4.0")]
     public sealed class Plugin : BaseUnityPlugin
     {
@@ -21,6 +21,7 @@ namespace WinterPack
         private bool winter;
         private readonly Dictionary<string,Texture2D> replacements=new Dictionary<string,Texture2D>(StringComparer.Ordinal);
         private TreeTextureSwapper treeSwapper;
+        private TileOverlayComposer tileComposer;
         private int lastTreeCount=-1;
         private readonly Dictionary<Texture,Texture> originals=new Dictionary<Texture,Texture>();
         private readonly List<Change> changes=new List<Change>();
@@ -88,12 +89,15 @@ namespace WinterPack
                     replacements.Add(entry.key,tex);
                 }
                 treeSwapper=new TreeTextureSwapper(map.treeBindings,replacements);
+                tileComposer=new TileOverlayComposer(bundle.LoadAsset<Shader>("tile-overlay-shader"));
                 Logger.LogInfo("Loaded "+map.entries.Length+" winter textures.");
                 return true;
             }
             catch(Exception e)
             {
                 Logger.LogError(e);
+                if(tileComposer!=null) tileComposer.Dispose();
+                tileComposer=null;
                 if(bundle) bundle.Unload(true);
                 bundle=null;map=null;treeSwapper=null;replacements.Clear();
                 return false;
@@ -184,6 +188,7 @@ namespace WinterPack
             Texture2D result;
             if(texture.name=="diffuse") return null;
             if(!replacements.TryGetValue(texture.name,out result) || texture==result) return null;
+            if(texture.name=="Tile_3") return tileComposer.Get(texture,result);
             return result;
         }
 
@@ -232,6 +237,7 @@ namespace WinterPack
             if(treeSwapper!=null) treeSwapper.Restore();
             lastTreeCount=-1;
             originals.Clear();
+            if(tileComposer!=null) tileComposer.Clear();
             foreach(var sprite in sprites.Values) if(sprite) Object.Destroy(sprite);
             sprites.Clear();
         }
@@ -239,7 +245,8 @@ namespace WinterPack
         private void OnDestroy()
         {
             LegacySettingsMenuHelper.Unregister(SettingId);
-            Restore();if(bundle) bundle.Unload(true);
+            Restore();if(tileComposer!=null) tileComposer.Dispose();
+            if(bundle) bundle.Unload(true);
         }
     }
 }

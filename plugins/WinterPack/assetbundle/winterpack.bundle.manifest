@@ -1,15 +1,17 @@
 ManifestFileVersion: 0
-CRC: 199027393
+CRC: 2606915249
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 28d42e1f38de6c983c013df3b4a436e7
+    Hash: 0bc03b19bce8520b5c473cc4223c62a3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8cfd36d84ed37a63bcb3c7ce96d93f72
+    Hash: d7cd90b2a115ae4ffb1d5b8e987d3874
 HashAppended: 0
 ClassTypes:
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 48
   Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
@@ -24,6 +26,7 @@ Assets:
 - Assets/WinterTextures/skyX52+x.png
 - Assets/WinterTextures/diffuse#1921.png
 - Assets/WinterTextures/skyX54-y.png
+- Assets/TileOverlay.shader
 - Assets/WinterTextures/GrassGreen_1.png
 - Assets/WinterTextures/skyX53-z.png
 - Assets/WinterTextures/Lod.png

@@ -12,8 +12,8 @@ public static class BuildWinterPack
         try
         {
             var map=JsonUtility.FromJson<TextureMap>(File.ReadAllText("Assets/winterpack-map.json"));
-            var paths=new List<string> { "Assets/winterpack-map.json" };
-            var names=new List<string> { "winterpack-map" };
+            var paths=new List<string> { "Assets/winterpack-map.json", "Assets/TileOverlay.shader" };
+            var names=new List<string> { "winterpack-map", "tile-overlay-shader" };
             foreach(var e in map.entries)
             {
                 string path="Assets/WinterTextures/"+e.key+".png";
@@ -29,6 +29,20 @@ public static class BuildWinterPack
                 importer.filterMode=(FilterMode)e.filter;
                 importer.textureCompression=TextureImporterCompression.CompressedHQ;
                 importer.isReadable=false;
+                // Retain DXT5 for the overlay; actual terrain RGB is composed at runtime.
+                // Automatic CompressedHQ selects BC7 for this PNG on Standalone.
+                if(e.key=="Tile_3")
+                {
+                    var platform=importer.GetPlatformTextureSettings("Standalone");
+                    platform.name="Standalone";
+                    platform.overridden=true;
+                    platform.format=TextureImporterFormat.DXT5;
+                    platform.maxTextureSize=8192;
+                    platform.textureCompression=TextureImporterCompression.Compressed;
+                    platform.compressionQuality=100;
+                    platform.crunchedCompression=false;
+                    importer.SetPlatformTextureSettings(platform);
+                }
                 importer.SaveAndReimport();
                 paths.Add(path); names.Add("winter/"+e.key);
             }
