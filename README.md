@@ -18,6 +18,7 @@ Want to add your plugin here? Contact us in [Telegram](https://t.me/BigCityLegac
 | LegacyMapExpansion  | zzest()    | 1.0.0   | Windows, Linux      | [Link](https://github.com/zzest-dev/LegacyMapExpansion) | [Windows](https://github.com/zzest-dev/LegacyMapExpansion/releases/download/v1.0.0/LegacyMapExpansion-1.0.0.zip), [Linux](https://github.com/zzest-dev/LegacyMapExpansion/releases/download/v1.0.0/LegacyMapExpansion-1.0.0-Linux.zip) |
 | RadioReplacer       | Mr_Dodep   | 3.0.0   | All                 | [Link](./plugins/RadioReplacer/README.md)               | [Universal](https://github.com/LxgacyTeam/community-plugins/blob/main/plugins/RadioReplacer/releases/RadioReplacer-3.0.0.zip) |
 | CinematicCameraPlus | Mr_Dodep   | 5.0.0   | All                 | [Link](./plugins/CinematicCameraPlus/README.md)         | [Universal](https://github.com/LxgacyTeam/community-plugins/blob/main/plugins/CinematicCameraPlus/releases/CinematicCameraPlus_5.0.0.zip) |
+| WinterPack          | dvwhrf     | 1.0.0   | Windows             | [Link](./plugins/WinterPack/README.md)                  | [Windows](https://raw.githubusercontent.com/LxgacyTeam/community-plugins/refs/heads/main/plugins/WinterPack/releases/WinterPack-1.0.0.zip) |
 
 ---
 
