@@ -1,0 +1,1140 @@
+{
+  "entries": [
+    {
+      "key": "Asphalt_1",
+      "name": "Asphalt_1",
+      "pathId": 2085,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Asphalt_15",
+      "name": "Asphalt_15",
+      "pathId": 1121,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Asphalt_17",
+      "name": "Asphalt_17",
+      "pathId": 1637,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Asphalt_2",
+      "name": "Asphalt_2",
+      "pathId": 1280,
+      "width": 256,
+      "height": 256,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Asphalt_6",
+      "name": "Asphalt_6",
+      "pathId": 1925,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Asphalt_8",
+      "name": "Asphalt_8",
+      "pathId": 1809,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1219",
+      "name": "diffuse",
+      "pathId": 1219,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1287",
+      "name": "diffuse",
+      "pathId": 1287,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1397",
+      "name": "diffuse",
+      "pathId": 1397,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1529",
+      "name": "diffuse",
+      "pathId": 1529,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1574",
+      "name": "diffuse",
+      "pathId": 1574,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1623",
+      "name": "diffuse",
+      "pathId": 1623,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1678",
+      "name": "diffuse",
+      "pathId": 1678,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1771",
+      "name": "diffuse",
+      "pathId": 1771,
+      "width": 256,
+      "height": 256,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1921",
+      "name": "diffuse",
+      "pathId": 1921,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1931",
+      "name": "diffuse",
+      "pathId": 1931,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#1940",
+      "name": "diffuse",
+      "pathId": 1940,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#2005",
+      "name": "diffuse",
+      "pathId": 2005,
+      "width": 256,
+      "height": 256,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#2016",
+      "name": "diffuse",
+      "pathId": 2016,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#2114",
+      "name": "diffuse",
+      "pathId": 2114,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#2125",
+      "name": "diffuse",
+      "pathId": 2125,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#2224",
+      "name": "diffuse",
+      "pathId": 2224,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "diffuse#2272",
+      "name": "diffuse",
+      "pathId": 2272,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Grass_1",
+      "name": "Grass_1",
+      "pathId": 1766,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "Grass_3",
+      "name": "Grass_3",
+      "pathId": 1521,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "GrassGreen_1",
+      "name": "GrassGreen_1",
+      "pathId": 1972,
+      "width": 128,
+      "height": 128,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "GUI_BuyMenu_Close",
+      "name": "GUI_BuyMenu_Close",
+      "pathId": 1602,
+      "width": 128,
+      "height": 128,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 4
+    },
+    {
+      "key": "Land_12",
+      "name": "Land_12",
+      "pathId": 1818,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "Land_14",
+      "name": "Land_14",
+      "pathId": 1298,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "Land_15",
+      "name": "Land_15",
+      "pathId": 2132,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "Land_16",
+      "name": "Land_16",
+      "pathId": 1860,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "Land_5",
+      "name": "Land_5",
+      "pathId": 1398,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "Land_7",
+      "name": "Land_7",
+      "pathId": 1536,
+      "width": 256,
+      "height": 256,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "Leave_15",
+      "name": "Leave_15",
+      "pathId": 1532,
+      "width": 256,
+      "height": 256,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Leave_5",
+      "name": "Leave_5",
+      "pathId": 1596,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Leave_6",
+      "name": "Leave_6",
+      "pathId": 1851,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Leave_7",
+      "name": "Leave_7",
+      "pathId": 1224,
+      "width": 256,
+      "height": 256,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    },
+    {
+      "key": "Lod",
+      "name": "Lod",
+      "pathId": 1130,
+      "width": 2048,
+      "height": 2048,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "OffRoad_2",
+      "name": "OffRoad_2",
+      "pathId": 1603,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "OffRoad_3",
+      "name": "OffRoad_3",
+      "pathId": 1381,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "OffRoad_4",
+      "name": "OffRoad_4",
+      "pathId": 1197,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "OffRoad_6",
+      "name": "OffRoad_6",
+      "pathId": 982,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX52+x",
+      "name": "skyX52+x",
+      "pathId": 932,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX52+y",
+      "name": "skyX52+y",
+      "pathId": 1558,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX52+z",
+      "name": "skyX52+z",
+      "pathId": 1183,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX52-x",
+      "name": "skyX52-x",
+      "pathId": 2211,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX52-z",
+      "name": "skyX52-z",
+      "pathId": 2172,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX53+x",
+      "name": "skyX53+x",
+      "pathId": 1093,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX53+y",
+      "name": "skyX53+y",
+      "pathId": 1749,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX53+z",
+      "name": "skyX53+z",
+      "pathId": 1054,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX53-x",
+      "name": "skyX53-x",
+      "pathId": 1708,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX53-y",
+      "name": "skyX53-y",
+      "pathId": 1888,
+      "width": 32,
+      "height": 32,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX53-z",
+      "name": "skyX53-z",
+      "pathId": 1161,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX54+x",
+      "name": "skyX54+x",
+      "pathId": 1864,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX54+y",
+      "name": "skyX54+y",
+      "pathId": 1564,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX54+z",
+      "name": "skyX54+z",
+      "pathId": 2090,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX54-x",
+      "name": "skyX54-x",
+      "pathId": 1875,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX54-y",
+      "name": "skyX54-y",
+      "pathId": 1806,
+      "width": 32,
+      "height": 32,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX54-z",
+      "name": "skyX54-z",
+      "pathId": 1318,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX55+x",
+      "name": "skyX55+x",
+      "pathId": 1096,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX55+y",
+      "name": "skyX55+y",
+      "pathId": 1515,
+      "width": 1024,
+      "height": 1024,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX55+z",
+      "name": "skyX55+z",
+      "pathId": 1753,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX55-x",
+      "name": "skyX55-x",
+      "pathId": 2189,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX55-y",
+      "name": "skyX55-y",
+      "pathId": 1867,
+      "width": 32,
+      "height": 32,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "skyX55-z",
+      "name": "skyX55-z",
+      "pathId": 2129,
+      "width": 1024,
+      "height": 512,
+      "mipmaps": false,
+      "wrap": 1,
+      "filter": 1,
+      "format": 10
+    },
+    {
+      "key": "Tile_3",
+      "name": "Tile_3",
+      "pathId": 1003,
+      "width": 512,
+      "height": 512,
+      "mipmaps": true,
+      "wrap": 0,
+      "filter": 1,
+      "format": 12
+    }
+  ],
+  "treeBindings": [
+    {
+      "tree": "Tree 9",
+      "mesh": "Mesh",
+      "meshPathId": 5867,
+      "vertexCount": 1422,
+      "indexCounts": [
+        1116,
+        1752
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#2114",
+          "pathId": 2114
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#2114",
+          "pathId": 2114
+        }
+      ]
+    },
+    {
+      "tree": "Tree 3",
+      "mesh": "Mesh",
+      "meshPathId": 5864,
+      "vertexCount": 1313,
+      "indexCounts": [
+        1380,
+        1488
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1771",
+          "pathId": 1771
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1771",
+          "pathId": 1771
+        }
+      ]
+    },
+    {
+      "tree": "Tree 5",
+      "mesh": "Mesh",
+      "meshPathId": 5876,
+      "vertexCount": 621,
+      "indexCounts": [
+        504,
+        744
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1931",
+          "pathId": 1931
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1931",
+          "pathId": 1931
+        }
+      ]
+    },
+    {
+      "tree": "Tree 17",
+      "mesh": "Mesh",
+      "meshPathId": 5872,
+      "vertexCount": 914,
+      "indexCounts": [
+        852,
+        1056
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1623",
+          "pathId": 1623
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1623",
+          "pathId": 1623
+        }
+      ]
+    },
+    {
+      "tree": "Tree 1",
+      "mesh": "Mesh",
+      "meshPathId": 5865,
+      "vertexCount": 1321,
+      "indexCounts": [
+        2484,
+        1104
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1397",
+          "pathId": 1397
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1397",
+          "pathId": 1397
+        }
+      ]
+    },
+    {
+      "tree": "Tree 16",
+      "mesh": "Mesh",
+      "meshPathId": 5870,
+      "vertexCount": 1764,
+      "indexCounts": [
+        1968,
+        1968
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1219",
+          "pathId": 1219
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1219",
+          "pathId": 1219
+        }
+      ]
+    },
+    {
+      "tree": "Tree 14",
+      "mesh": "Mesh",
+      "meshPathId": 5871,
+      "vertexCount": 2678,
+      "indexCounts": [
+        1272,
+        3552
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1940",
+          "pathId": 1940
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1940",
+          "pathId": 1940
+        }
+      ]
+    },
+    {
+      "tree": "Tree 15",
+      "mesh": "Mesh",
+      "meshPathId": 5873,
+      "vertexCount": 1002,
+      "indexCounts": [
+        684,
+        1224
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1529",
+          "pathId": 1529
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1529",
+          "pathId": 1529
+        }
+      ]
+    },
+    {
+      "tree": "Tree 2",
+      "mesh": "Mesh",
+      "meshPathId": 5866,
+      "vertexCount": 373,
+      "indexCounts": [
+        312,
+        432
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#2224",
+          "pathId": 2224
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#2224",
+          "pathId": 2224
+        }
+      ]
+    },
+    {
+      "tree": "Tree",
+      "mesh": "Mesh",
+      "meshPathId": 5868,
+      "vertexCount": 158,
+      "indexCounts": [
+        120,
+        192
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#2016",
+          "pathId": 2016
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#2016",
+          "pathId": 2016
+        }
+      ]
+    },
+    {
+      "tree": "Tree 7",
+      "mesh": "Mesh",
+      "meshPathId": 5875,
+      "vertexCount": 1254,
+      "indexCounts": [
+        600,
+        1656
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1921",
+          "pathId": 1921
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1921",
+          "pathId": 1921
+        }
+      ]
+    },
+    {
+      "tree": "Tree 4",
+      "mesh": "Mesh",
+      "meshPathId": 5869,
+      "vertexCount": 1492,
+      "indexCounts": [
+        1056,
+        1848
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#2125",
+          "pathId": 2125
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#2125",
+          "pathId": 2125
+        }
+      ]
+    },
+    {
+      "tree": "Tree 8",
+      "mesh": "Mesh",
+      "meshPathId": 5874,
+      "vertexCount": 2301,
+      "indexCounts": [
+        1464,
+        2904
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1678",
+          "pathId": 1678
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1678",
+          "pathId": 1678
+        }
+      ]
+    },
+    {
+      "tree": "Tree 11",
+      "mesh": "Mesh",
+      "meshPathId": 6085,
+      "vertexCount": 1333,
+      "indexCounts": [
+        384,
+        1872
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1574",
+          "pathId": 1574
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1574",
+          "pathId": 1574
+        }
+      ]
+    },
+    {
+      "tree": "Tree 10",
+      "mesh": "Mesh",
+      "meshPathId": 6063,
+      "vertexCount": 1430,
+      "indexCounts": [
+        1248,
+        1704
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#1287",
+          "pathId": 1287
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#1287",
+          "pathId": 1287
+        }
+      ]
+    },
+    {
+      "tree": "Tree 13",
+      "mesh": "Mesh",
+      "meshPathId": 6081,
+      "vertexCount": 2477,
+      "indexCounts": [
+        1824,
+        3072
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#2005",
+          "pathId": 2005
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#2005",
+          "pathId": 2005
+        }
+      ]
+    },
+    {
+      "tree": "Tree 12",
+      "mesh": "Mesh",
+      "meshPathId": 5993,
+      "vertexCount": 1009,
+      "indexCounts": [
+        288,
+        1416
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "property": "_MainTex",
+          "key": "diffuse#2272",
+          "pathId": 2272
+        },
+        {
+          "index": 1,
+          "property": "_MainTex",
+          "key": "diffuse#2272",
+          "pathId": 2272
+        }
+      ]
+    }
+  ]
+}

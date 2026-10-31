@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 199027393
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28d42e1f38de6c983c013df3b4a436e7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8cfd36d84ed37a63bcb3c7ce96d93f72
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/WinterTextures/Tile_3.png
+- Assets/WinterTextures/skyX54+z.png
+- Assets/WinterTextures/diffuse#2125.png
+- Assets/WinterTextures/GUI_BuyMenu_Close.png
+- Assets/WinterTextures/skyX52-x.png
+- Assets/WinterTextures/Leave_6.png
+- Assets/WinterTextures/Land_7.png
+- Assets/WinterTextures/skyX52+x.png
+- Assets/WinterTextures/diffuse#1921.png
+- Assets/WinterTextures/skyX54-y.png
+- Assets/WinterTextures/GrassGreen_1.png
+- Assets/WinterTextures/skyX53-z.png
+- Assets/WinterTextures/Lod.png
+- Assets/WinterTextures/skyX55-z.png
+- Assets/WinterTextures/diffuse#2114.png
+- Assets/WinterTextures/diffuse#1397.png
+- Assets/WinterTextures/diffuse#1771.png
+- Assets/WinterTextures/Land_15.png
+- Assets/WinterTextures/skyX54-x.png
+- Assets/WinterTextures/Asphalt_8.png
+- Assets/WinterTextures/skyX55+z.png
+- Assets/WinterTextures/skyX53-y.png
+- Assets/WinterTextures/OffRoad_2.png
+- Assets/WinterTextures/Asphalt_6.png
+- Assets/WinterTextures/skyX52-z.png
+- Assets/WinterTextures/Land_5.png
+- Assets/WinterTextures/skyX55+x.png
+- Assets/WinterTextures/diffuse#1623.png
+- Assets/WinterTextures/diffuse#1529.png
+- Assets/WinterTextures/skyX54+x.png
+- Assets/WinterTextures/skyX53+x.png
+- Assets/WinterTextures/diffuse#1678.png
+- Assets/WinterTextures/diffuse#2272.png
+- Assets/WinterTextures/skyX55-y.png
+- Assets/WinterTextures/diffuse#1574.png
+- Assets/WinterTextures/diffuse#2016.png
+- Assets/WinterTextures/OffRoad_6.png
+- Assets/WinterTextures/Leave_7.png
+- Assets/WinterTextures/diffuse#1219.png
+- Assets/WinterTextures/Grass_1.png
+- Assets/WinterTextures/Leave_15.png
+- Assets/winterpack-map.json
+- Assets/WinterTextures/skyX55+y.png
+- Assets/WinterTextures/diffuse#1931.png
+- Assets/WinterTextures/diffuse#1940.png
+- Assets/WinterTextures/skyX54-z.png
+- Assets/WinterTextures/OffRoad_4.png
+- Assets/WinterTextures/Asphalt_1.png
+- Assets/WinterTextures/skyX52+z.png
+- Assets/WinterTextures/skyX55-x.png
+- Assets/WinterTextures/Land_16.png
+- Assets/WinterTextures/Land_14.png
+- Assets/WinterTextures/Asphalt_15.png
+- Assets/WinterTextures/diffuse#2224.png
+- Assets/WinterTextures/OffRoad_3.png
+- Assets/WinterTextures/skyX53-x.png
+- Assets/WinterTextures/skyX52+y.png
+- Assets/WinterTextures/skyX53+z.png
+- Assets/WinterTextures/Asphalt_2.png
+- Assets/WinterTextures/diffuse#2005.png
+- Assets/WinterTextures/Leave_5.png
+- Assets/WinterTextures/skyX54+y.png
+- Assets/WinterTextures/Land_12.png
+- Assets/WinterTextures/diffuse#1287.png
+- Assets/WinterTextures/Asphalt_17.png
+- Assets/WinterTextures/Grass_3.png
+- Assets/WinterTextures/skyX53+y.png
+Dependencies: []

@@ -23,3 +23,10 @@ Want to add your plugin here? Contact us in [Telegram](https://t.me/BigCityLegac
 
 ## Installation
 Download plugin zip and extract it to root game folder (MadOut2 PC 9.4 with BigCityLegacy)
+
+---
+
+## Plugin templates
+Minimal plugin templates with pre-configured dependencies and varying sets of features are available in `templates`.
+
+### [See template plugins README](./templates/README.md)
