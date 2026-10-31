@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <GameDir>D:\Games\MadOut2</GameDir>
+    <!-- Optional overrides; use the assemblies from the same BCL installation. -->
+    <!-- <BigCityLegacyDll>D:\Sources\BigCityLegacy\bin\Release\BigCityLegacy.dll</BigCityLegacyDll> -->
+    <!-- <LegacyUIFrameworkDll>D:\Sources\BigCityLegacy\bin\Release\LegacyUIFramework.dll</LegacyUIFrameworkDll> -->
+  </PropertyGroup>
+</Project>
