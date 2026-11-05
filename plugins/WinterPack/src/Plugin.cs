@@ -44,6 +44,15 @@ namespace WinterPack
             StartCoroutine(WatchResources());
             Logger.LogInfo("WinterPack ready; default season: Summer. GUID: "+Guid);
         }
+        private void Update()
+        {
+            if (LegacyHelpers.IsGameplayRunning && Input.GetKeyDown(KeyCode.F7))
+            {
+                bool pref = Convert.ToBoolean(PlayerPrefs.GetInt(PrefKey));
+                SetSeason(!pref);
+                PlayerPrefs.SetInt(PrefKey, Convert.ToInt32(!pref));
+            }
+        }
 
         private static void PlaceSeason(GameObject clone)
         {

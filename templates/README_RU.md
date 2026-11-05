@@ -1,4 +1,5 @@
-### [> Русский <](./README_RU.md) | [English](./README.md)
+### [> Русский <](./README_RU.md) | [English](./README.md) | [简体中文](./README_ZH.md)
+
 ---
 
 # BCL plugin templates

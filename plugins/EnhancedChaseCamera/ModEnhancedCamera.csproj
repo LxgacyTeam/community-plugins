@@ -1,0 +1,103 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- MadOut2 PC 9.4 / Unity 2019.1.8f1 / BepInEx 5. No game DLLs are redistributed. -->
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>ModEnhancedCamera</AssemblyName>
+    <RootNamespace>ModEnhancedCamera</RootNamespace>
+    <Version>2.3.1</Version>
+    <Authors>Reki</Authors>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <NoWarn>$(NoWarn);1701;1702;0618;0649</NoWarn>
+    <!-- Override via Directory.Build.props or -p:GameDir=absolute/path. -->
+    <GameDir Condition="'$(GameDir)' == ''">$(MSBuildProjectDirectory)\..\..\prod_game</GameDir>
+    <ManagedDir Condition="'$(ManagedDir)' == ''">$(GameDir)\game_Data\Managed</ManagedDir>
+    <BepInExDir Condition="'$(BepInExDir)' == ''">$(GameDir)\BepInEx\core</BepInExDir>
+    <LegacyUIFrameworkDll Condition="'$(LegacyUIFrameworkDll)' == '' and Exists('$(GameDir)\BepInEx\plugins\BigCityLegacy\LegacyUIFramework.dll')">$(GameDir)\BepInEx\plugins\BigCityLegacy\LegacyUIFramework.dll</LegacyUIFrameworkDll>
+    <LegacyUIFrameworkDll Condition="'$(LegacyUIFrameworkDll)' == ''">$(GameDir)\BepInEx\plugins\LegacyUIFramework.dll</LegacyUIFrameworkDll>
+    <BigCityLegacyDll Condition="'$(BigCityLegacyDll)' == ''">$(GameDir)\BepInEx\plugins\BigCityLegacy\BigCityLegacy.dll</BigCityLegacyDll>
+    <CopyToPlugins Condition="'$(CopyToPlugins)' == ''">false</CopyToPlugins>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Gives compiler access to internal game types without modifying the game. -->
+    <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.3" PrivateAssets="all" />
+    <Reference Include="BepInEx">
+      <HintPath>$(BepInExDir)\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(BepInExDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp" Publicize="true">
+      <HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass" Publicize="true">
+      <HintPath>$(ManagedDir)\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ManagedDir)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(ManagedDir)\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(ManagedDir)\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>$(ManagedDir)\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(ManagedDir)\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BigCityLegacy">
+      <HintPath>$(BigCityLegacyDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="LegacyUIFramework">
+      <HintPath>$(LegacyUIFrameworkDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="ValidatePluginReferences" BeforeTargets="PrepareForBuild;ResolveReferences">
+    <ItemGroup>
+      <RequiredPluginReference Include="$(BepInExDir)\BepInEx.dll" />
+      <RequiredPluginReference Include="$(BepInExDir)\0Harmony.dll" />
+      <RequiredPluginReference Include="$(ManagedDir)\Assembly-CSharp.dll" />
+      <RequiredPluginReference Include="$(ManagedDir)\Assembly-CSharp-firstpass.dll" />
+      <RequiredPluginReference Include="$(ManagedDir)\UnityEngine.dll" />
+      <RequiredPluginReference Include="$(ManagedDir)\UnityEngine.CoreModule.dll" />
+      <RequiredPluginReference Include="$(ManagedDir)\UnityEngine.UIModule.dll" />
+      <RequiredPluginReference Include="$(ManagedDir)\UnityEngine.IMGUIModule.dll" />
+      <RequiredPluginReference Include="$(LegacyUIFrameworkDll)" />
+      <RequiredPluginReference Include="$(BigCityLegacyDll)" />
+      <MissingPluginReference Include="@(RequiredPluginReference)" Condition="!Exists('%(Identity)')" />
+    </ItemGroup>
+    <Warning Code="BCLTPL001" Condition="'@(MissingPluginReference)' != ''"
+             Text="Missing dependency: %(MissingPluginReference.Identity). Set GameDir/ManagedDir/BepInExDir/BigCityLegacyDll/LegacyUIFrameworkDll in Directory.Build.props or via -p:Property=absolute/path." />
+    <Error Code="BCLTPL002" Condition="'@(MissingPluginReference)' != ''"
+           Text="Cannot build: install the required dependencies and correct the paths listed above." />
+  </Target>
+
+  <!-- Explicit opt-in deployment; copies only this plugin, never dependency DLLs. -->
+  <Target Name="CopyPluginToGame" AfterTargets="Build" Condition="'$(CopyToPlugins)' == 'true'">
+    <MakeDir Directories="$(GameDir)\BepInEx\plugins\$(AssemblyName)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GameDir)\BepInEx\plugins\$(AssemblyName)" />
+  </Target>
+</Project>

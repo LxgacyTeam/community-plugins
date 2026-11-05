@@ -1,22 +1,27 @@
+### [Русский](./README_RU.md) | [> English <](./README.md) | [简体中文](./README_ZH.md)
+
+---
+
 # RadioReplacer
-### Автор плагина: [Mr_Dodep](https://t.me/MrDodep_1337)
 
-Мод для замены радио в игре на свою музыку. Работает локально — только у вас, другие игроки слышат оригинальное радио.
+### Plugin author: [Mr_Dodep](https://t.me/MrDodep_1337)
 
----
-
-## Установка
-
-1. Скопируйте `RadioReplacer.dll` в папку `BepInEx/plugins/`
-2. Запустите игру — мод автоматически создаст папки для треков
+A mod that replaces the game's radio with your own music. It works locally: other players still hear the original radio.
 
 ---
 
-## Папки для музыки
+## Installation
 
-После первого запуска в папке с игрой появятся папки:
+1. Copy `RadioReplacer.dll` to `BepInEx/plugins/`.
+2. Launch the game. The mod creates the track folders automatically.
 
-```
+---
+
+## Music folders
+
+After the first launch, these folders appear inside the game directory:
+
+```text
 BepInEx/plugins/RadioReplacer/
 ├── tracks_1/
 ├── tracks_2/
@@ -25,26 +30,29 @@ BepInEx/plugins/RadioReplacer/
 └── tracks_5/
 ```
 
-Каждая папка соответствует одной радиостанции в игре.
-Поддерживаемые форматы: `.ogg`, `.wav`
+Each folder corresponds to one in-game radio station.
+Supported formats: `.ogg`, `.wav`.
 
-Просто закиньте музыкальные файлы в нужную папку — мод подхватит их автоматически.
-
----
-
-## Использование
-
-1. Добавьте треки в папки `tracks_1` — `tracks_5`
-2. Зайдите в игру и сядьте в машину
-3. Нажмите **Alt + M** — откроется меню RadioReplacer
-4. Выберите радиостанцию и замените треки на свои
-5. Закройте меню — музыка применится сразу
+Place your music files in the appropriate folder; the mod detects them automatically.
 
 ---
 
-## Заметки
+## Usage
 
-- Мод работает только локально: замена слышна только вам
-- Чем больше файлов в папке, тем больше треков на станции
-- Если папка пустая — станция играет оригинальную музыку
-- Поддерживаются длинные треки без ограничений по размеру
+1. Add tracks to `tracks_1` through `tracks_5`.
+2. Enter the game and get into a vehicle.
+3. Press **Alt + M** to open RadioReplacer.
+4. Select a radio station and replace its tracks with your own.
+5. Close the menu. The music changes immediately.
+
+---
+
+## Notes
+
+- Replacements are local and audible only to you.
+
+- More files in a folder mean more tracks on that station.
+
+- An empty folder leaves the station's original music playing.
+
+- Long tracks are supported without a file-size limit.

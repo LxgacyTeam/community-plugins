@@ -1,61 +1,86 @@
+### [Русский](./README_RU.md) | [> English <](./README.md) | [简体中文](./README_ZH.md)
+
+---
+
 # Cinematic Camera Plus
-### Автор плагина: [Mr_Dodep](https://t.me/MrDodep_1337)
 
-Мод для кинематографической настройки камеры и визуальных эффектов в игре. Все изменения работают локально — только у вас.
+### Plugin author: [Mr_Dodep](https://t.me/MrDodep_1337)
 
----
-
-## Установка
-
-1. Скопируйте `CinematicCameraPlus.dll` в папку `BepInEx/plugins/`
-2. Запустите игру
-3. Нажмите **Alt + C** — откроется меню мода
+A mod for cinematic camera adjustments and visual effects. All changes are local and visible only to you.
 
 ---
 
-## Вкладки меню
+## Installation
+
+1. Copy `CinematicCameraPlus.dll` to `BepInEx/plugins/`.
+2. Launch the game.
+3. Press **Alt + C** to open the mod menu.
+
+---
+
+## Menu tabs
 
 ### Camera
-- **FOV** — поле зрения камеры (20°–120°), быстрые кнопки: 60°, 75°, 90°, 45° Cinematic, 35° Portrait
-- **Наклон камеры (Roll)** — наклон влево/вправо (-45°..+45°), кнопки -15° / 0° / +15°
-- **Letterbox** — кинематографические чёрные полосы, форматы 2.39:1 / 2.35:1 / 1.85:1
+
+- **FOV** — camera field of view (20°–120°), with shortcuts for 60°, 75°, 90°, 45° Cinematic and 35° Portrait
+
+- **Camera roll** — left/right tilt (-45° to +45°), with -15° / 0° / +15° buttons
+
+- **Letterbox** — cinematic black bars in 2.39:1 / 2.35:1 / 1.85:1 aspect ratios
 
 ### Color
-- **Яркость** — -1.0..+1.0
-- **Контраст** — 0.5..2.0
-- **Насыщенность** — 0.0..2.0 (0 = чёрно-белое)
-- **Гамма** — 0.5..2.0
+
+- **Brightness** — -1.0 to +1.0
+
+- **Contrast** — 0.5 to 2.0
+
+- **Saturation** — 0.0 to 2.0 (0 = black and white)
+
+- **Gamma** — 0.5 to 2.0
 
 ### Effects
-- **Виньетка** — затемнение по краям экрана
-- **Хроматическая аберрация** — цветовое смещение по краям
-- **Сканлайны** — горизонтальные полосы как на старом мониторе
-- **Зернистость плёнки** — случайный шум каждый кадр
-- **Ночное зрение** — зелёный тон + затемнение
-- **Сепия** — коричнево-жёлтый тон
-- **Инфракрасный** — красный тон, имитация IR-камеры
-- **Туман/дымка** — молочный белёсый оверлей
-- **Старое ТВ** — полосы помех, прокатывающаяся линия, пожелтение
-- **Закат** — тёплый градиент оранжевый→золотой→фиолетовый
+
+- **Vignette** — darkened screen edges
+
+- **Chromatic aberration** — color shifts around the edges
+
+- **Scanlines** — horizontal lines resembling an old monitor
+
+- **Film grain** — random noise each frame
+
+- **Night vision** — green tint and darkening
+
+- **Sepia** — brown and yellow tones
+
+- **Infrared** — red tint simulating an IR camera
+
+- **Fog / haze** — a milky-white overlay
+
+- **Old TV** — interference lines, a rolling scanline and yellowing
+
+- **Sunset** — a warm orange → gold → purple gradient
 
 ### Presets
-Готовые пресеты — меняют FOV, цвет и эффекты одновременно:
 
-| Пресет | Описание |
+Built-in presets change FOV, color and effects together:
+
+| Preset | Description |
 |---|---|
-| Cinematic | FOV 50, контраст+, виньетка, letterbox |
-| Noir | Чёрно-белое, высокий контраст, зерно |
-| Sunset | Тёплые тона, насыщенность+ |
-| Cold Night | Синий тон, тёмный, хром. аберрация |
-| Vintage | Зерно, сканлайны, старая плёнка |
-| Horror | Тёмный, зелёный тон, виньетка |
-| Vivid | Яркий, насыщенность+ |
-| Default | Сброс всех параметров |
+| Cinematic | FOV 50, increased contrast, vignette, letterbox |
+| Noir | Black and white, high contrast, grain |
+| Sunset | Warm tones, increased saturation |
+| Cold Night | Blue tint, darkening, chromatic aberration |
+| Vintage | Grain, scanlines, old-film look |
+| Horror | Dark green tint, vignette |
+| Vivid | Bright colors, increased saturation |
+| Default | Reset all settings |
 
 ---
 
-## Заметки
+## Notes
 
-- FOV работает даже если другой плагин пытается его перезаписать
-- Все эффекты можно отключить одной кнопкой "Выключить все эффекты"
-- Меню закрывается повторным нажатием **Alt + C** или правой кнопкой мыши
+- FOV adjustments work even if another plugin tries to overwrite them.
+
+- All effects can be disabled with the "Disable all effects" button.
+
+- Press **Alt + C** again or right-click to close the menu.
